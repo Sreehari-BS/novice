@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <h1><a href="#" class="navbar-brand">NOVICE FC</a></h1>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarid">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+       <div class="collapse navbar-collapse" id="navbarid">
+        <ul class="navbar-nav text-center ms-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Products" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#form" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="#location" class="nav-link">Location</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+<!--Carousel-->    
+<div class="container" id="carousel">
+    <div class="carousel slide" id="myslider" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="carousel-img">
+                    <img src="imges/Carousal/1.jpg" class="img-fluid" alt="">
+                    <div class="carousel-caption">
+                        <h2>Football</h2>
+                        <p>Football is an incredible game. Sometimes it's so incredible, it's unbelievable.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="carousel-item active">
+                <div class="carousel-img">
+                    <img src="imges/Carousal/2.jpg" class="img-fluid" alt="">
+                    <div class="carousel-caption">
+                        <h2>Success</h2>
+                        <p>Success is not final, failure is not fatal: it is the courage to continue that counts.</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="carousel-item active">
+                <div class="carousel-img">
+                    <img src="imges/Carousal/3.jpg" class="img-fluid" alt="">
+                    <div class="carousel-caption">
+                        <h2>Champion</h2>
+                        <p>A champion is someone who gets up when they can't.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <ul class="carousel-indicators">
+            <li data-bs-target="#myslider" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myslider" data-bs-slide-to="1" class="" ></li>
+            <li data-bs-target="#myslider" data-bs-slide-to="2" class=""></li>
+        </ul>
+
+        <a href="#myslider" data-bs-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#myslider" data-bs-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+
+    </div>
+</div>
+
+<!--Product Section-->
+<h1 class="text-center" id="Products">Our Products...</h1>
+<br>
+<div class="container text-center " id="mainProducts">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card mx-auto">
+                <img id="productImage" src="imges/Products/football.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="footer-head">NOVICE</span> Football</h5>
+                  <p class="card-text">Upgrade your game with our durable and high-performing football.</p>
+                  <h5 class="card-title text-danger">Rs: 999.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card mx-auto">
+                <img id="productImage" src="imges/Products/Jersy.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="footer-head">NOVICE</span> Jersey</h5>
+                  <p class="card-text">Get ready for game day with the perfect jersey to show off your team pride.</p>
+                  <h5 class="card-title text-danger">Rs: 500.50</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card mx-auto">
+                <img id="productImage" src="imges/Products/Shorts.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="footer-head">NOVICE</span> Shorts</h5>
+                  <p class="card-text">Experience the ultimate in comfort and flexibility with our shorts.</p>
+                  <h5 class="card-title text-danger">Rs: 300.10</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-lg-4 ">
+            <div class="card mx-auto">
+                <img id="productImage" src="imges/Products/Boot.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="footer-head">NOVICE</span> Boot</h5>
+                  <p class="card-text">Take your game to the next level with our lightweight and durable football boots.</p>
+                  <h5 class="card-title text-danger">Rs: 1000.90</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card mx-auto">
+                <img id="productImage" src="imges/Products/glove.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="footer-head">NOVICE</span> Glove</h5>
+                  <p class="card-text">Make the game-winning catch with our high-performance football gloves.</p>
+                  <h5 class="card-title text-danger">Rs: 300.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card mx-auto">
+                <img id="productImage" src="imges/Products/Socks.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="footer-head">NOVICE</span> Socks</h5>
+                  <p class="card-text">Train and play like a pro with our top-quality football socks.</p>
+                  <h5 class="card-title text-danger">Rs: 150.50</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Services-->
+<h1 class="text-center" id="services">Services of <span class="footer-head">NOVICE</span></h1>
+<br>
+<div class="container" id="service-tab">
+    <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#provides" data-bs-toggle="tab">We Provides</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#goal" data-bs-toggle="tab">Goal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#future" data-bs-toggle="tab">Future Plans</a>
+        </li>
+    </ul>
+
+    <div class="tab-content container">
+        <div class="tab-pane active" id="about">
+            <br>
+            <h1>What is <span class="footer-head">NOVICE</span> ?</h1>
+            <span class="footer-head">NOVICE</span> FC is a local football club that provides an exciting and supportive environment for players of all skill levels. Whether you're a beginner just starting out, or an experienced player looking to improve your skills, Novice FC is the perfect place for you. With a dedicated and passionate coaching staff, you'll be able to develop your abilities and reach your full potential on the pitch. Come be a part of our team and join the Novice FC community today!
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique odio porro nihil ab magnam suscipit tempore architecto ea! Corrupti soluta iure quisquam iusto omnis nihil neque ipsam inventore quos ex.
+            Minus, unde expedita et dolore, voluptate quos inventore assumenda neque doloremque optio perspiciatis nesciunt. Molestias dicta asperiores necessitatibus rem autem incidunt nesciunt optio nostrum blanditiis, perspiciatis at, animi fugiat voluptatum.
+            Commodi ducimus, nesciunt mollitia fuga quia unde nostrum, inventore quos vitae, sapiente repellendus incidunt eaque. Laborum blanditiis officia aut ducimus earum in. Aut dicta totam perferendis distinctio. Et, earum quod!
+            Ea quae illum nemo impedit! Quam et eaque nulla nisi officia. Dicta illo facilis explicabo magni, eligendi quas cupiditate possimus quod fugit dolorum commodi magnam repellendus facere hic rem laborum.
+            Nulla sequi odit debitis! Natus, non provident dolorum amet, cum distinctio eius maxime assumenda expedita, delectus sunt repellat repudiandae aliquid animi error nobis deserunt quos facilis eligendi omnis. Officiis, iste!
+            Fugiat, ut consequatur, molestias quod eius autem laborum ex, ad eos itaque dolore deserunt quam quos magnam hic. Accusamus vel asperiores eveniet quos laboriosam minima consequuntur in, placeat libero. Enim?
+            Incidunt error ipsum animi similique vel, quam tempore omnis harum id, delectus exercitationem corporis quaerat modi rem impedit ut facere asperiores quis cumque, ab odio dolorem nulla vitae laudantium? Tenetur.
+            Voluptate voluptas ratione exercitationem repudiandae a officia sint cumque delectus similique alias non eum, eligendi obcaecati dolores adipisci incidunt doloribus modi cupiditate nihil quam quasi dolor commodi! Illum, repellendus quisquam.
+        </div>
+
+        <div class="tab-pane" id="provides">
+            <br>
+            <h1><span class="footer-head">NOVICE</span> Services</h1>
+            Here is a sample services description for Novice FC, a local football club:
+            <br>
+            1.Novice FC offers a variety of programs and services designed to support players of all ages and skill levels. Our services include:
+            <br>
+            2.Youth Development Program: Designed to help young players develop their skills and love for the game, our youth development program offers training sessions, friendly matches, and coaching support.
+            <br>
+            3.Adult Leagues: For older players, Novice FC offers competitive adult leagues where you can put your skills to the test against other local teams.
+            <br>
+            4.Coaching and Training: Our experienced coaching staff provides regular training sessions that focus on technique, tactics, and teamwork.
+            <br>
+            5.Club Events: Novice FC also hosts a variety of club events and social gatherings, offering a fun and supportive community for players to connect with each other.
+            <br>
+            6.Equipment and Facilities: We provide all the necessary equipment and facilities for players, including top-quality playing fields and training areas.
+            <br>
+            Join Novice FC and experience the best in local football. Whether you're looking to improve your skills, play competitively, or simply be a part of a supportive community, we have something for everyone.
+
+        </div>
+
+        <div class="tab-pane" id="goal">
+            <br>
+            <h1><span class="footer-head">NOVICE</span> Goals</h1>
+            The goal of Novice FC is to create a positive and inclusive environment where players of all ages and skill levels can come together to play and love the beautiful game of football. Our mission is to develop players' skills and abilities, foster a love for the sport, and create opportunities for growth and success on and off the pitch. We strive to provide a supportive and competitive environment where players can reach their full potential and achieve their goals. Whether you're looking to play competitively, improve your skills, or simply have fun and make new friends, Novice FC is the perfect place for you. Join us today and be a part of our mission to grow the game of football in our community.
+            <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolores molestiae, quam praesentium suscipit veniam quae tempore vel temporibus, reiciendis hic quod labore, mollitia culpa. Assumenda, officia. Atque, non? Optio!
+            Eaque, provident. Odio ipsa, excepturi quos minus dignissimos velit nostrum exercitationem. Mollitia minima repellendus in error dolorum possimus eum soluta incidunt enim suscipit ut, harum eaque voluptatem provident minus deserunt!
+            Hic corrupti illo vitae non eum. Reiciendis deleniti a provident veniam impedit praesentium dolores nemo inventore mollitia accusamus, ut sequi magnam et itaque blanditiis non pariatur. Sequi doloribus voluptate quia.
+            Sequi delectus quo officiis perferendis. Assumenda nemo, unde a eveniet hic, adipisci mollitia, laboriosam amet nisi sequi similique optio? Officia iste beatae recusandae corporis, pariatur ipsam sunt distinctio fugit optio?
+            Quidem beatae rerum omnis consequuntur eum iure eligendi veniam dolores quisquam neque repellendus quos ab nam obcaecati, quo sit est, sed accusantium, ut expedita aperiam veritatis repellat ipsam? Ipsa, assumenda?
+            Similique nobis labore voluptates ratione molestias id saepe? Explicabo sapiente ullam laboriosam similique voluptatum doloremque necessitatibus minus, asperiores dolore laudantium eius laborum quasi doloribus error iure inventore repudiandae consectetur quaerat?
+            Non libero, beatae optio laboriosam quisquam excepturi minus cumque ipsum totam aspernatur, possimus voluptas recusandae et magni repudiandae labore iusto ratione, rerum incidunt. Blanditiis totam repellendus provident esse magnam iusto?
+            Quo quod repellendus, magni quia ipsam iste nihil enim nisi accusantium fugiat explicabo in, ex soluta asperiores a excepturi sit exercitationem dolores obcaecati? Dolor deserunt pariatur minima odit accusamus unde!
+        </div>
+
+        <div class="tab-pane" id="future">
+            <br>
+            <h1>Future Plans of <span class="footer-head">NOVICE</span></h1>
+            Novice FC has big plans for the future! Our mission is to continue to provide the highest quality programs and services for players of all ages and skill levels. Here are some of our future plans:
+            <br>
+            1.Expansion of Youth Development Program: We plan to expand our youth development program to reach even more young players and help them develop their skills and love for the game.
+            <br>
+            2.Addition of New Adult Leagues: We plan to add new adult leagues to provide more opportunities for older players to compete and improve their skills.
+            <br>
+            3.Improvement of Coaching and Training: Our coaching staff will continue to receive professional development opportunities to enhance their skills and provide the best training experiences for our players.
+            <br>
+            4.Expansion of Club Events: Novice FC will continue to host club events and social gatherings to bring our players and community together and create a fun and supportive environment.
+            <br>
+            5.Investment in Equipment and Facilities: We plan to invest in new equipment and facilities to provide the best possible playing and training experiences for our players.
+            <br>
+            Our future plans are driven by our passion for the beautiful game of football and our commitment to providing the best experiences for our players and community. Join Novice FC and be a part of our future plans to grow the game and make a positive impact in our community.
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!--JoinSection-->
+<br><br>
+<h1 class="text-center">Join <span class="footer-head">NOVICE</span></h1>
+<br><br>
+<div class="container" id="form">
+<form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity" placeholder="City">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>Kerala</option>
+        <option>Tamilnadu</option>
+        <option>Karnataka</option>
+        <option>Andrapradesh</option>
+        <option>Goa</option>
+        <option>Maharashtra</option>
+        <option>Gujarat</option>
+        <option>Rajasthan</option>
+        <option>Punjab</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Pin</label>
+      <input type="text" class="form-control" id="inputZip" placeholder="PIN">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+</div>
+
+<!--Footer-->
+<br>
+<div class="container-fluid bg-secondary" id="location">
+    <div class="row">
+        <h1 class="text-center text-white">Location</h1>
+        <div class="col-6">
+            <h1 class="text-white"><span class="footer-head">NOVICE</span> Football Club</h1>
+            <h4>Thiruvananthapurm</h4>
+            <h4>Kerala</h4>
+            <p>0470 263 4585</p>
+            <p>Email: NOVICEfckerala@gmail.com</p>
+            <p>Website: www.novicefc-kerala.com</p>
+        </div>
+        <div class="col-6">
+                <iframe 
+                alig src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.9452960303274!2d76.81412241475473!3d8.696745193751768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05e9f9bc13c731%3A0x6f20ffdd65bcb01d!2sAttingal%20Municipality!5e0!3m2!1sen!2sin!4v1674900909454!5m2!1sen!2sin" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+        </div>
+    </div>
+</div>
+
+
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
